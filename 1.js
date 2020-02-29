@@ -12,4 +12,9 @@ function getNumber(n) {
         tens: Math.floor(n / 10) % 10,
     }
 }
-console.log(getNumber(357));
+let d = 386;
+let num = getNumber(d);
+console.log('Число: ' + d);
+console.log('Сотни: ' + num.hundreds);
+console.log('Десятки: ' + num.tens);
+console.log('Единицы: ' + num.units);
