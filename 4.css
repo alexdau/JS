@@ -1,0 +1,22 @@
+.prods {
+display: flex;
+}
+
+img {
+height: 150px;
+width: 150px;
+}
+
+.product {
+    display: block;
+    margin: 25px;
+}
+
+.product_name {
+    width: 150px;
+}
+
+.desc {
+    display: block;
+    width: 150px;
+}

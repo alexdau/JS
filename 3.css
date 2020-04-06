@@ -1,0 +1,32 @@
+.desc {
+    display: block;
+    background-color: #cab6e4;
+    height: 110px;
+    width: 300px;
+    position: fixed;
+    margin: 50px;
+    padding: 2%;
+}
+
+.hide {
+    display: none;
+}
+ span {
+     position: absolute;
+     right: -15px;
+     top: -15px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+     background: lightgrey;
+     font-size: 34px;
+     cursor: pointer;
+     transition: 0.5s;
+ }
+
+ span:hover {
+     background: grey;
+ }
